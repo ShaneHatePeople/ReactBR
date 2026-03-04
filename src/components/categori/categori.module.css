@@ -1,0 +1,23 @@
+.categori_box {
+    text-align: center;
+}
+.categori {
+    display: inline-block;
+    margin-top: 80px;
+}
+.categori li {
+    display: inline-block;
+}
+.categori li a {
+    border-right: 1px solid #F986BD; box-sizing: border-box;
+    font-weight: 800;
+    font-size: 15px;
+    color: #F986BD;
+    padding: 0 20px;
+}
+.categori li a.isActive {
+    background-color:#F986BD;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 5px;
+}

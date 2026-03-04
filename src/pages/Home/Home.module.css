@@ -1,0 +1,14 @@
+.monthly {
+    width: 1030px;
+    margin: 0 auto;
+}
+.monthly .title {
+    text-align: center;
+    font-size: 90px;
+    font-weight: 1000;
+    color: #F986BD;
+    margin: 50px 0;
+}
+.monthly .contents {
+    border: 1px solid #eee;
+}

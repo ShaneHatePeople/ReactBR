@@ -1,0 +1,25 @@
+.container {
+    width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.title {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 1000;
+    color: #F986BD;
+    margin: 50px 0;
+}
+.sub_title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #F986BD;
+}
+
+.grid {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-items: center;
+}

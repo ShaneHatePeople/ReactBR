@@ -1,0 +1,50 @@
+
+.card {
+  text-align: center;
+}
+.img_box {
+  position: relative;
+  width: 230px;
+  height: 200px;
+  border: 1px solid #eee;
+  border-radius: 45px;
+  padding: 0 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.img_box:hover {
+  background-color: var(--hover-bg);
+  transition: all 0.3s ease;
+}
+.img_box:hover .image {
+  padding-top: 80px;
+  transition: all 0.3s;
+}
+.img_box:hover .tag {
+  bottom: 55%;
+  opacity: 100%;
+  transition: bottom 0.3s ;
+}
+
+.title {
+  color: #ff66a3;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-weight: 800;
+}
+
+.tag {
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  margin-left: -95px;
+  width: 190px;
+  font-weight: 800;
+  font-size: 17px;
+  color: white;
+  white-space: normal;
+  user-select: none;
+  opacity: 0;
+}

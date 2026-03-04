@@ -1,0 +1,65 @@
+.header {
+    position: relative;
+}
+
+.header .header_inner {
+    background-color: #F986BD;
+    padding: 15px 0;
+}
+
+.gnb {
+    width: 1550px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.gnb .logo {
+    width: 110px;
+}
+
+.gnb a {
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+.gnb ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu_item {
+    position: relative;
+}
+.menu_item.hover a {
+    color:black;
+}
+.sub_menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    width: 1300px;
+    padding: 50px 0;
+    background-color: white;
+    z-index: 100;
+}
+
+.sub_menu::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background: transparent;
+}
+
+.sub_menu .categori li {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+    margin-right: 70px;
+}
