@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header/header';
+import Footer from './components/Footer/footer';
 import Home from './pages/Home/Home';
 import IceCreamList from './pages/IceCreamList/IceCreamList';
 import IceCreamDetail from './pages/IceCreamDetail/IceCreamDetail';
@@ -16,6 +17,7 @@ function App() {
         <Route path='/icecream' element={<IceCreamList/>}/>
         <Route path='/icecream/:id' element={<IceCreamDetail/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }

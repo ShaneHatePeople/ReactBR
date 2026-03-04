@@ -1,0 +1,84 @@
+.footer {
+    background-color: #111;
+    color: #999;
+    padding: 40px 0 60px;
+}
+
+.footerInner {
+    width: 1500px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.topNav {
+    border-bottom: 1px solid #333;
+    padding-bottom: 18px;
+    margin-bottom: 26px;
+}
+
+.topNav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topNav li {
+    cursor: default;
+}
+
+.middle {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 28px;
+}
+
+.brandBlock {
+    width: 260px;
+}
+
+.brandLogo {
+    width: 120px;
+}
+
+.brandLogo img {
+    width: 100%;
+    display: block;
+}
+
+.brandInfo {
+    margin-top: 12px;
+    font-size: 11px;
+    line-height: 1.7;
+    color: #777;
+}
+
+.brandInfo .copyLine {
+    margin-top: 10px;
+}
+.menuColumns {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.menuColumns h4 {
+    color: #bbb;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.menuColumns ul li {
+    margin-bottom: 4px;
+}
+
+.bottom {
+    border-top: 1px solid #222;
+    padding-top: 14px;
+}
+
+.copyright {
+    font-size: 11px;
+    color: #777;
+}
+

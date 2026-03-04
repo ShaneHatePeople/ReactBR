@@ -2,48 +2,109 @@
     position: relative;
 }
 
-.header .header_inner {
-    background-color: #F986BD;
-    padding: 15px 0;
+.header_inner {
+    background-color: #f986bd;
 }
 
 .gnb {
-    width: 1550px;
+    max-width: 1080px;
     margin: 0 auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 14px 0;
 }
 
-.gnb .logo {
+.logo {
     width: 110px;
 }
 
+.logo img {
+    width: 100%;
+    display: block;
+}
+
+.header_gnb {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
 .gnb a {
-    color: white;
+    color: #fff;
     font-size: 14px;
     font-weight: 800;
-    padding: 20px 0;
-    transition: all 0.5s ease;
-}
-.gnb ul li {
-    display: inline-block;
-    margin: 0 15px;
+    padding: 4px 0;
+    transition: color 0.3s ease;
 }
 
 .menu_item {
     position: relative;
 }
-.menu_item.hover a {
-    color:black;
+
+.hover a {
+    color: #222;
 }
+
+.util {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.searchBox {
+    position: relative;
+    width: 220px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.searchInput {
+    flex: 1;
+    height: 100%;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    outline: none;
+    padding: 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+.searchIcon {
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.searchInput::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.userButton {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+
+.userIcon {
+    color: #fff;
+    font-size: 22px;
+}
+
 .sub_menu {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: 100%;
-    width: 1300px;
-    padding: 50px 0;
-    background-color: white;
+    width: 100%;
+    max-width: 1080px;
+    padding: 40px 0;
+    background-color: #fff;
     z-index: 100;
 }
 
@@ -57,9 +118,13 @@
     background: transparent;
 }
 
-.sub_menu .categori li {
+.categori {
+    text-align: left;
+}
+
+.categori li {
     display: inline-block;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
-    margin-right: 70px;
+    margin-right: 60px;
 }

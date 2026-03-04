@@ -1,14 +1,134 @@
 .monthly {
-    width: 1030px;
+    width: 1080px;
     margin: 0 auto;
+    margin-bottom: 80px;
+    padding-top: 50px;
 }
-.monthly .title {
+
+.title {
     text-align: center;
-    font-size: 90px;
-    font-weight: 1000;
-    color: #F986BD;
-    margin: 50px 0;
+    font-size: 80px;
+    font-weight: 900;
+    color: #f986bd;
+    margin: 60px 0 46px;
 }
-.monthly .contents {
+
+.heroBox {
+    border: 1px solid #d9d9d9;
+    padding: 80px 0 0;
+    background-color: #fff;
+}
+
+.heroText {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0 70px;
+}
+
+.enName {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    color: #222;
+    text-transform: uppercase;
+}
+
+.krName {
+    margin-top: 16px;
+    font-size: 40px;
+    font-weight: 900;
+    color: #222;
+}
+
+.desc {
+    margin-top: 14px;
+    font-size: 16px;
+    color: #777;
+}
+
+.divider {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 740px;
+    height: 2px;
+    background-color: #555;
+}
+
+.mainVisual {
+    margin-top: 0;
+}
+
+.mainVisual img {
+    width: 100%;
+    display: block;
+}
+
+.videoSection {
+    margin-top: 40px;
+}
+
+.videoInner {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+.videoInner iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    display: block;
+}
+
+.selectSection {
+    margin-top: 72px;
+}
+
+.selectTitle {
+    font-size: 18px;
+    font-weight: 800;
+    color: #222;
+    margin-bottom: 32px;
+}
+
+.selectList {
+    display: flex;
+    gap: 18px;
+}
+
+.selectCard {
+    width: 260px;
+    border-radius: 24px;
+    overflow: hidden;
     border: 1px solid #eee;
+    background-color: #fff;
+}
+
+.selectThumb {
+    /* 이미지 자체 디자인만 쓰고 배경은 추가하지 않음 */
+}
+
+.selectThumb img {
+    width: 100%;
+    display: block;
+    border-radius: 24px;
+}
+
+.selectMeta {
+    text-align: center;
+    padding: 20px 10px 22px;
+}
+
+.selectName {
+    font-size: 14px;
+    font-weight: 700;
+    color: #222;
+}
+
+.selectInfo {
+    margin-top: 4px;
+    font-size: 12px;
+    color: #777;
 }
